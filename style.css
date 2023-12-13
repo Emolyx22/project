@@ -1,0 +1,223 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+    height: 100%;
+    margin: 0;
+
+}
+
+.overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1400px; /* Larghezza dell'overlay */
+  height: 1200px; /* Altezza dell'overlay */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1; /* Imposta l'overlay dietro il resto del contenuto */
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    margin-top: 210px;
+}
+
+.AB {
+    color: #00FF00;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.green-rectangle {
+    width: 1000px;
+    height: auto;
+    background-color: #00FF00;
+    border: 2px solid #00FF00;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.Prenota {
+    font-family: 'Montserrat', sans-serif;
+}
+.prenota, .Termina-Prenotazione, .Accendi-Luci {
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    text-align: center;
+
+}
+
+.rettangolo-grigio1,
+.rettangolo-grigio2,
+.rettangolo-grigio3 {
+    padding: 3px;
+    display: inline-block;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rettangolo-grigio1 p,
+.rettangolo-grigio2 p,
+.rettangolo-grigio3 p {
+    margin: 0;
+}
+
+.Gino22 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-left: 758px;
+    position: relative;
+}
+
+.row input {
+    margin-right: 5px;
+}
+
+.Via {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.row span {
+  color: white;
+    font-size: 25px;
+    display: block;
+}
+
+.Stato {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+.yellow-rectangle {
+    width: 320px;
+    height: auto;
+    background-color: #FFD966;
+    border: 2px solid #FFD966;
+    border-radius: 7px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.Mike24 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+
+.row input {
+    margin-right: 5px;
+}
+
+.Via-Ricciardoni {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.row span {
+  color: white;
+    font-size: 25px;
+    display: block;
+}
+
+.Stato {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+.supergreen-rectangle {
+    width: 620px;
+    height: auto;
+    background-color: #00FF00;
+    border: 2px solid #00FF00;
+    border-radius: 7px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.Fede124 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+.row input {
+    margin-right: 5px;
+}
+
+.Via-Mentarini {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.row span {
+  color: white;
+    font-size: 25px;
+    display: block;
+}
+
+
+.Stato {
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+
+}
+.red-rectangle {
+  width: 220px;
+  height: auto;
+  background-color: #E06666;
+  border: 2px solid #E06666;
+  border-radius: 7px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+}
